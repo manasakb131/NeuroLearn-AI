@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Dashboard | NeuroLearn AI</title>
+
+  <link rel="stylesheet" href="css/dashboard.css">
+
+</head>
+
+<body>
+
+<div class="dashboard-layout">
+
+  <!-- SIDEBAR -->
+
+  <aside class="sidebar">
+
+    <div>
+
+      <h2 class="logo">
+        NeuroLearn AI
+      </h2>
+
+      <ul class="sidebar-links">
+
+        <li>
+          <a href="dashboard.html">
+            Dashboard
+          </a>
+        </li>
+
+        <li>
+          <a href="courses.html">
+            Courses
+          </a>
+        </li>
+
+        <li>
+          <a href="quiz.html">
+            Quiz
+          </a>
+        </li>
+
+        <li>
+          <a href="profile.html">
+            Profile
+          </a>
+        </li>
+
+        <li>
+          <a href="index.html">
+            Home
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+
+    <button id="logoutBtn" class="logout-btn">
+      Logout
+    </button>
+
+  </aside>
+
+  <!-- MAIN -->
+
+  <main class="main-content">
+
+    <div class="topbar">
+
+      <div>
+        <h1 id="welcomeUser">
+          Welcome
+        </h1>
+
+        <p>
+          Continue your AI-powered learning journey.
+        </p>
+      </div>
+
+    </div>
+
+    <!-- STATS -->
+
+    <div class="stats-grid">
+
+      <div class="stat-card">
+        <h3>Quiz Score</h3>
+        <h2 id="quizScore">0</h2>
+      </div>
+
+      <div class="stat-card">
+        <h3>Learning Streak</h3>
+        <h2>12 Days</h2>
+      </div>
+
+      <div class="stat-card">
+        <h3>Courses Enrolled</h3>
+        <h2>4</h2>
+      </div>
+
+      <div class="stat-card">
+        <h3>Certificates</h3>
+        <h2>2</h2>
+      </div>
+
+    </div>
+
+    <!-- COURSES -->
+
+    <div class="dashboard-card">
+
+      <div class="card-header">
+
+        <h2>My Courses</h2>
+
+        <a href="courses.html">
+          View All
+        </a>
+
+      </div>
+
+      <div class="course-list">
+<div class="course-item">
+
+  <div>
+    <h3>Data Structures</h3>
+
+    <p id="dsaProgress">
+      Progress: 0%
+    </p>
+  </div>
+
+  <button id="dsaBtn">
+    Continue
+  </button>
+
+</div>
+
+<div class="course-item">
+
+  <div>
+    <h3>Web Development</h3>
+
+    <p id="webProgress">
+      Progress: 0%
+    </p>
+  </div>
+
+  <button id="webBtn">
+    Continue
+  </button>
+
+</div>
+       
+
+      </div>
+
+    </div>
+
+    <!-- AI -->
+
+    <div class="dashboard-card">
+
+      <div class="card-header">
+        <h2>AI Recommendations</h2>
+      </div>
+
+      <div class="ai-box">
+
+        <p>
+          Based on your learning progress,
+          continue JavaScript and DSA practice today.
+        </p>
+
+      </div>
+
+    </div>
+
+  </main>
+
+</div>
+
+<script type="module" src="js/dashboard.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+  <title>
+    Quiz | NeuroLearn AI
+  </title>
+
+  <!-- Google Font -->
+
+  <link rel="preconnect"
+    href="https://fonts.googleapis.com">
+
+  <link rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin>
+
+  <link href=
+"https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS -->
+
+  <link rel="stylesheet"
+    href="css/quiz.css">
+
+</head>
+
+<body>
+
+  <div class="quiz-layout">
+
+    <!-- ================= SIDEBAR ================= -->
+
+    <aside class="sidebar">
+
+      <h2>
+        NeuroLearn AI
+      </h2>
+
+      <ul>
+
+        <li>
+          <a href="dashboard.html">
+            Dashboard
+          </a>
+        </li>
+
+        <li>
+          <a href="index.html">
+            Home
+          </a>
+        </li>
+
+      </ul>
+
+    </aside>
+
+    <!-- ================= MAIN CONTENT ================= -->
+
+    <main class="quiz-content">
+
+      <h1>
+        Quiz System
+      </h1>
+
+      <!-- QUIZ BOX -->
+
+      <div class="quiz-box">
+
+        <h2 id="question">
+          Loading Question...
+        </h2>
+
+        <div id="answers"
+          class="answers">
+
+        </div>
+
+        <button id="nextBtn"
+          class="next-btn">
+
+          Next Question
+
+        </button>
+
+      </div>
+
+      <!-- RESULT BOX -->
+
+      <div class="result-box"
+        id="resultBox"
+        style="display:none;">
+
+        <h2 id="scoreText">
+
+        </h2>
+
+        <div class="action-buttons">
+
+          <a href="dashboard.html">
+
+            <button>
+              Back to Dashboard
+            </button>
+
+          </a>
+
+          <a href="index.html">
+
+            <button>
+              Go to Home
+            </button>
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </main>
+
+  </div>
+
+  <!-- JS -->
+
+  <script type="module"
+    src="js/quiz.js"></script>
+
+</body>
+
+</html>
