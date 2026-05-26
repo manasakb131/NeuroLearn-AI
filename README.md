@@ -66,6 +66,9 @@ Landing Page
 * Charts & Graphs
 * Course Enrollment System
 * React + Node.js Upgrade
+## Live Demo
+
+https://neuro-learn-ai-tau.vercel.app/
 
 ## Author
 
